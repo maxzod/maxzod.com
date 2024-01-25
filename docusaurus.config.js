@@ -47,7 +47,7 @@ const config = {
 
 
           blogSidebarTitle: 'كل المقالات',
-          blogSidebarCount: 'الكل',
+          blogSidebarCount: 'ALL',
 
 
         },
