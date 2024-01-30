@@ -39,10 +39,9 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: './sidebars.js',
-        },
+        docs: false,
         blog: {
+
           showReadingTime: true,
 
 
@@ -71,6 +70,7 @@ const config = {
       // Replace with your project's social card
       // image: 'img/docusaurus-social-card.jpg',
       navbar: {
+
         title: 'الرئيسيه',
         // logo: {
         //   alt: 'My Site Logo',
@@ -120,6 +120,7 @@ const config = {
       // ],
       // copyright: `جميع الحقوق محفوظه © احمد مسعود توفيق  ${new Date().getFullYear()} .`,
       // },
+
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
