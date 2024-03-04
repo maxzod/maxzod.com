@@ -7,11 +7,6 @@ import styles from './index.module.css';
 import Box from './box.js';
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
-  const items = [
-    { title: 'Readable', description: 'a collection of helpers and extension for dart & flutter', link: 'https://github.com/maxzod/readable' },
-    { title: 'Validators', description: 'collection of validation methods and rules for flutter form with ZERO extra widgets', link: 'https://github.com/maxzod/queen_validators' },
-    { title: 'Laravel Exception', description: 'parse laravel exceptions to dart classes', link: 'https://github.com/maxzod/laravel_exception' },
-  ];
 
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
@@ -33,7 +28,7 @@ function HomepageHeader() {
             <Heading as="h1" className="hero__title" style={{ padding: '100px' }}>
               مشاريعي مفتوحه المصدر - My Open Source Projects
             </Heading>
-            <Box items={items} />
+            <Box />
 
           </div>
         </div>

@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 
-const Box = ({ items }) => {
+const Box = ({ }) => {
+   const items = [
+      { title: 'Readable', description: 'a collection of helpers and extension for dart & flutter', link: 'https://github.com/maxzod/readable' },
+      { title: 'Validators', description: 'collection of validation methods and rules for flutter form with ZERO extra widgets', link: 'https://github.com/maxzod/queen_validators' },
+      { title: 'Laravel Exception', description: 'parse laravel exceptions to dart classes', link: 'https://github.com/maxzod/laravel_exception' },
+   ];
+
    const [hoveredIndex, setHoveredIndex] = useState(null);
 
    const handleClick = (link) => {
